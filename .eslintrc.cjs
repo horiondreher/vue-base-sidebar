@@ -13,4 +13,15 @@ module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
   },
+  rules: {
+    "prettier/prettier": [
+      "error",
+      {
+        semi: true,
+        singleQuote: false,
+        trailingComma: "es5",
+        htmlWhitespaceSensitivity: "ignore",
+      },
+    ],
+  },
 };
