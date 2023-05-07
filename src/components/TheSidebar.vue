@@ -1,5 +1,5 @@
 <template>
-  <aside :class="`${is_expanded && 'is-expanded'}`">
+  <aside :class="{ 'is-expanded': is_expanded }">
     <div class="logo">
       <img src="../assets/logo.svg" alt="Vue" />
     </div>

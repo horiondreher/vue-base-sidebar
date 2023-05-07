@@ -7,6 +7,8 @@
 
 <script setup lang="ts">
 import TheSidebar from "./components/TheSidebar.vue";
+
+import { RouterView } from "vue-router";
 </script>
 
 <style lang="scss">
